@@ -1,0 +1,10 @@
+c:\users\pjasi\source\repos\ColorRemover\ColorRemover\bin\Debug\ColorRemover.exe.config
+c:\users\pjasi\source\repos\ColorRemover\ColorRemover\bin\Debug\ColorRemover.exe
+c:\users\pjasi\source\repos\ColorRemover\ColorRemover\bin\Debug\ColorRemover.pdb
+c:\users\pjasi\source\repos\ColorRemover\ColorRemover\obj\Debug\ColorRemover.Form1.resources
+c:\users\pjasi\source\repos\ColorRemover\ColorRemover\obj\Debug\ColorRemover.Properties.Resources.resources
+c:\users\pjasi\source\repos\ColorRemover\ColorRemover\obj\Debug\ColorRemover.csproj.GenerateResource.Cache
+c:\users\pjasi\source\repos\ColorRemover\ColorRemover\obj\Debug\ColorRemover.csproj.CoreCompileInputs.cache
+c:\users\pjasi\source\repos\ColorRemover\ColorRemover\obj\Debug\ColorRemover.exe
+c:\users\pjasi\source\repos\ColorRemover\ColorRemover\obj\Debug\ColorRemover.pdb
+c:\users\pjasi\source\repos\ColorRemover\ColorRemover\obj\Debug\ColorRemover.csprojResolveAssemblyReference.cache

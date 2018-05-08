@@ -1,0 +1,287 @@
+// Ogre overlay scripts
+MMView/MMOverlay
+{
+	zorder 500
+	// Stats block
+	
+      container BorderPanel(MMView/Main)
+      {
+	
+              metrics_mode pixels
+	
+              vert_align top
+	
+              left 0
+              top  0
+              width 220
+              height 30
+
+	
+	      element TextArea(MMView/DebugText)
+	      {
+			metrics_mode pixels
+			left 0
+			top 0
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			caption AVERAGE FPS:
+			colour  1 1.0 1.0
+	      }
+	
+        }
+}
+MMView/HelpOverlay
+{
+      zorder 600
+
+      container BorderPanel(MMView/HelpPanel)
+      {
+              metrics_mode pixels
+	
+              vert_align center
+	      horz_align center
+	      	
+              left -300
+              top  -200
+              width 600
+              height 400
+
+	
+              material MMView/Blue
+	
+              border_size 1 1 1 1
+	      element TextArea(MMView/HelpText)
+	      {
+			metrics_mode pixels
+			left 5
+			top 5
+			width 600
+			height 400
+			font_name BlueHighway
+			char_height 26
+			colour  1 1.0 1.0
+	      }
+        }
+				
+}
+
+
+MMView/MapOverlay
+{
+	zorder 500
+	
+      container BorderPanel(MMView/CrossPanel)
+      {
+	      metrics_mode pixels
+	      vert_align center
+	      horz_align center
+              left -5
+              top  -5
+              width 9
+              height 9
+              material MMView/Material/Cross
+
+      }
+      container BorderPanel(MMView/MMMapPanel)
+      {
+	
+              metrics_mode pixels
+	
+              vert_align top
+	
+              left 1
+              top  40
+              width 220
+              height 40
+
+	
+              material MMView/Blue
+	
+              border_size 1 1 1 1
+	      element TextArea(MMView/MMMap/Mapname)
+	      {
+			metrics_mode pixels
+			left 5
+			top 5
+			width 90
+			height 20
+			font_name BlueHighway
+			char_height 20
+			caption Mapname:
+			colour  1 1.0 1.0
+	      }
+	      element TextArea(MMView/MMMap/MapStats)
+	      {
+			metrics_mode pixels
+			left 5
+			top 20
+			width 90
+			height 20
+			font_name BlueHighway
+			char_height 20
+			caption Faces:
+			colour  1 1.0 1.0
+	      }
+	
+        }
+				
+}
+
+MMView/BLVMapFaceInfoOverlay
+{
+	zorder 500
+	// Stats block
+	
+      container BorderPanel(MMView/MMBLVMapPanel)
+      {
+	
+              metrics_mode pixels
+	
+              vert_align top
+	
+              left 1
+              top  85
+              width 300
+              height 250
+
+	
+              material MMView/Blue
+              border_size 1 1 1 1
+
+	      element TextArea(MMView/MMBLVMap/FaceParamData)
+	      {
+			metrics_mode pixels
+			left 5
+			top 5
+			width 295
+			height 245
+			font_name BlueHighway
+			char_height 16
+	      }
+        }
+				
+}
+
+MMView/ODMMapBModelInfoOverlay
+{
+	zorder 500
+	
+      container BorderPanel(MMView/ODMBModelPanel)
+      {
+	
+              metrics_mode pixels
+	
+              vert_align top
+	
+              left 1
+              top  85
+              width 270
+              height 210
+	
+              material MMView/Blue
+              border_size 1 1 1 1
+	      element TextArea(MMView/ODMMap/FBModelParams)
+	      {
+			metrics_mode pixels
+			left 5
+			top 5
+			width 265
+			height 205
+			font_name BlueHighway
+			char_height 16
+			caption ""
+	      }
+        }
+      container BorderPanel(MMView/ODMFacePanel)
+      {
+	
+              metrics_mode pixels
+	
+              vert_align top
+	
+              left 1
+              top  297
+              width 300
+              height 220
+	
+              material MMView/Blue
+              border_size 1 1 1 1
+	      element TextArea(MMView/ODMMap/BMFaceParams)
+	      {
+			metrics_mode pixels
+			left 5
+			top 5
+			width 295
+			height 215
+			font_name BlueHighway
+			char_height 16
+	      }
+        }
+				
+}
+
+MMView/ODMMapEntityInfoOverlay
+{
+      zorder 500
+	
+      container BorderPanel(MMView/ODMEntityPanel)
+      {
+	
+              metrics_mode pixels
+	
+              vert_align top
+	
+              left 1
+              top  85
+              width 270
+              height 210
+	
+              material MMView/Blue
+              border_size 1 1 1 1
+	      element TextArea(MMView/ODMMap/EntityParams)
+	      {
+			metrics_mode pixels
+			left 5
+			top 5
+			width 265
+			height 205
+			font_name BlueHighway
+			char_height 16
+			caption ""
+	      }
+        }
+}
+
+MMView/ODMMapSpawnInfoOverlay
+{
+      zorder 500
+	
+      container BorderPanel(MMView/ODMSpawnPanel)
+      {
+	
+              metrics_mode pixels
+	
+              vert_align top
+	
+              left 1
+              top  85
+              width 270
+              height 210
+	
+              material MMView/Blue
+              border_size 1 1 1 1
+	      element TextArea(MMView/ODMMap/SpawnParams)
+	      {
+			metrics_mode pixels
+			left 5
+			top 5
+			width 265
+			height 205
+			font_name BlueHighway
+			char_height 16
+			caption ""
+	      }
+        }
+}

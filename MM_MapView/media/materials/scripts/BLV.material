@@ -1,0 +1,45 @@
+material BLV/Portal
+{
+	technique
+	{
+		pass
+		{
+		        cull_hardware none
+		        scene_blend alpha_blend
+		        depth_write off
+		        diffuse 0.0 0.0 0.0 0.5
+		        ambient 1.0 1.0 1.0 0.5
+		}
+	}
+}
+
+material BLV/SelectedFace
+{
+	technique
+	{
+		pass
+		{
+//		        cull_hardware none
+		        scene_blend alpha_blend
+		        depth_write off
+			depth_bias	1
+		        diffuse 0.0 0.0 0.0 0.5
+		        ambient 1.0 0.0 1.0 0.5
+		}
+	}
+}
+material BLV/SelectedPortal
+{
+	technique
+	{
+		pass
+		{
+		        cull_hardware none
+		        scene_blend alpha_blend
+		        depth_write off
+			depth_bias	1
+		        diffuse 0.0 0.0 0.0 0.5
+		        ambient 1.0 0.0 1.0 0.5
+		}
+	}
+}

@@ -1,0 +1,35 @@
+material MMView/Blue
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture blue.png
+			}
+		}
+	}
+}
+
+material MMView/Material/Cross
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend 
+			depth_check off
+
+			texture_unit
+			{
+				texture cross.png
+			}
+		}
+	}
+}

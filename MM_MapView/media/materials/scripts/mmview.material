@@ -1,0 +1,29 @@
+material MmView/Spawn
+{
+	technique
+	{
+		pass
+		{
+		        cull_hardware none
+		        scene_blend alpha_blend
+		        depth_write off
+		        diffuse 1.0 0.0 0.0 0.3
+		        ambient 1.0 0.0 0.0 0.3
+		}
+	}
+}
+
+material MmView/Entity
+{
+	technique
+	{
+		pass
+		{
+		        cull_hardware none
+		        scene_blend alpha_blend
+		        depth_write off
+		        diffuse 0.0 1.0 1.0 0.5
+		        ambient 0.0 1.0 1.0 0.5
+		}
+	}
+}
